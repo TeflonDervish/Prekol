@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <img src="" alt="Картинка 1">
-    <img src="" alt="Картинка 2">
-    <img src="" alt="Картинка 3">
+    <img th:src="@{img/boobs.jpg}" alt="Картинка" width="100%">
+    <img th:src="@{img/boobs2.jpg}" alt="Картинка" width="100%">
+    <img th:src="@{img/boobs3.jpg}" alt="Картинка" width="100%">
+    <img th:src="@{img/photo.jpg}" alt="Картинка" width="100%">
+
 </body>
 </html>
